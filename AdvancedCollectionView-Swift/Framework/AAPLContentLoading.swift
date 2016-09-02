@@ -33,4 +33,4 @@ let AAPLLoadStateError = "ErrorState";
 
 
 /// A block that performs updates on the object that is loading. The object parameter is the receiver of the `-loadContentWithProgress:` message.
-typealias AAPLLoadingUpdateBlock = (AnyObject) -> Void
+public typealias AAPLLoadingUpdateBlock = (AnyObject) -> Void
